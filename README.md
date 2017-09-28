@@ -1,5 +1,4 @@
-# NR995 
-## Module 9
+# NR995 Module 9
 #### 2017 Fall
 #### Tim Szewczyk
 
