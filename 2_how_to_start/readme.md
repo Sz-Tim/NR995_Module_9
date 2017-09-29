@@ -68,21 +68,21 @@ You now have a local git repository on your computer connected to the remote git
 ## Making it easy: Storing your credentials
 In order to push your local commits to GitHub, git needs your login information. The default option is to ask you to type in your username and password each time you push or pull. This is annoying. Instead, there are two options. We will do the first:
 1. Store your username and password with a credential helper
-  A. Windows
-    i. Open the Shell again (Git tab > More > Shell..)
-    ii. Run `git config --global credential.helper wincred`
-    iii. If that doesn't work, download [Git Credential Manager](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases/tag/v1.12.0) and run the .exe file
-    iv. Close the shell and proceed to *C. Testing Stored Credentials* below
-  B. Mac
-    i. Open the Shell again (Git tab > More > Shell..) or a Terminal window
-    ii. Run `git config --global credential.helper osxkeychain`
-    iii. Close the shell and proceed to *C. Testing Stored Credentials* below
-  C. Testing Stored Credentials
-    i. In RStudio, open the README.md file and add a line with 'test commit 2'
-    ii. Save the file
-    iii. Stage & commit the changes (don't forget a commit message!)
-    iv. Push the commit & enter your username and password
-    v. Push again -- you should not be asked for your username and password
+    1. Windows  
+        1. Open the Shell again (Git tab > More > Shell..)
+        2. Run `git config --global credential.helper wincred`
+        3. If that doesn't work, download [Git Credential Manager](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases/tag/v1.12.0) and run the .exe file
+        4. Close the shell and proceed to *iii. Testing Stored Credentials* below
+    2. Mac
+        1. Open the Shell again (Git tab > More > Shell..) or a Terminal window
+        2. Run `git config --global credential.helper osxkeychain`
+        3. Close the shell and proceed to *iii. Testing Stored Credentials* below
+    3. Testing Stored Credentials
+        1. In RStudio, open the README.md file and add a line with 'test commit 2'
+        2. Save the file
+        3. Stage & commit the changes (don't forget a commit message!)
+        4. Push the commit & enter your username and password
+        5. Push again -- you should not be asked for your username and password
 2. Set up SSH keys -- more secure, but more complicated. See [this tutorial](http://happygitwithr.com/ssh-keys.html).
 
 
