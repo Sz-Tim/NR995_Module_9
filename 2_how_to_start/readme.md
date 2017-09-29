@@ -92,10 +92,10 @@ In order to push your local commits to GitHub, git needs your login information.
 
 
 ## Terms
-**Repository:** A folder (a.k.a., directory) containing all files associated with a project being tracked by a VCS; often shortened to 'repo'
-**Git:** A particular distributed VCS software program; WordProcessor:MicrosoftWord as VCS:Git
-**Stage:** (v.)
-**Commit:** (v.)
-**Push:** (v.)
-**Pull:** (v.)
+**Repository:** A folder (a.k.a., directory) containing all files associated with a project being tracked by a VCS; often shortened to 'repo'  
+**Git:** A particular distributed VCS software program; WordProcessor:MicrosoftWord as VCS:Git  
+**Stage:** (v.)  
+**Commit:** (v.)  
+**Push:** (v.)  
+**Pull:** (v.)  
 
