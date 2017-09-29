@@ -10,6 +10,7 @@ Remember: There's no shame in a hard reboot. Sometimes when you're getting start
 
 
 ### Installation
-
+[HappyGitWithR](happygitwithr.com)
 
 ### Basic operations
+[HappyGitWithR](happygitwithr.com)
