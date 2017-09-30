@@ -4,6 +4,12 @@
 
 ## Basic workflow  
 After you've sufficiently configured git, GitHub, and RStudio as described in Part II, using git should be generally painless. 
+0. (Open RStudio and **Pull** to ensure you're working on the latest version)
+1. Work normally
+2. Save normally
+3. After finishing a discrete task (e.g., code for data cleaning/analysis/plot, a paragraph or section in a written document, etc) get ready for git
+4. **Stage** and **Commit** each discrete task separately for simple & meaningful commit messages
+5. **Push** your commit(s) to the remote repository
 
 
 ## Merge conflicts
@@ -26,7 +32,7 @@ You can perform all basic git operations from within RStudio. The interface make
 
 ## (Some) GitHub features
 While you can use git locally on your own computer, you'd be missing out on a lot of git's potential. GitHub has many features that are useful both for collaborating and for working individually. You should take some time to explore, but here are a few of the bells and whistles.
-- Automatic rendering output from .Rmd
+- Automatically rendering output from .Rmd
 - History, blame, editing in place
 - Commenting
 - Issues
