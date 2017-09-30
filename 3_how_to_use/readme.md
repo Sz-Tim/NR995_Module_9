@@ -16,6 +16,7 @@ Merge conflicts occur when the same line(s) of a file are edited in two location
 
 
 ## Accessory files
+There are a few files that are unique to git or that GitHub treats differently.
 - *.gitignore*: This file lists all of the files, file types, and subdirectories that are in your local folder that you do *not* want to track with git. When you initialize a repo on GitHub, you have the option of choosing an R-based gitignore. This automatically includes temporary and hidden files created by R & RStudio that are irrelevant. You can also add specific files to ignore (e.g., an R script published with an article you are using as a reference, intermediate files, etc). Anything listed in the gitignore file will not show up in the *Git* tab in RStudio.
 - *readme.md*: GitHub will automatically render and display readme.md files. It is a useful place to provide a brief overview of the project, a description of the folders and files, etc. This works not just in the main directory, but in each subdirectory. For example, a folder called *code/* might have a readme.md that describes each R script in the folder.
 
