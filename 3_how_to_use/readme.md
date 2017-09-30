@@ -7,9 +7,8 @@ After you've sufficiently configured git, GitHub, and RStudio as described in Pa
 1. (Open RStudio and **Pull** to ensure you're working on the latest version)
 2. Work normally
 3. Save normally
-4. After finishing a discrete task (e.g., code for data cleaning/analysis/plot, a paragraph or section in a written document, etc) get ready for git
-5. **Stage** and **Commit** each discrete task separately for simple & meaningful commit messages
-6. **Push** your commit(s) to the remote repository
+4. **Stage** and **Commit** each discrete task (e.g., code for data cleaning/analysis/plot, a paragraph or section in a written document, etc) separately for simple & meaningful commit messages
+5. **Push** your commit(s) to the remote repository
 
 
 ## Merge conflicts
