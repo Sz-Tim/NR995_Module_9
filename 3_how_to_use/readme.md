@@ -12,7 +12,7 @@ After you've sufficiently configured git, GitHub, and RStudio as described in Pa
 
 
 ## Merge conflicts
-Merge conflicts occur when the same line(s) of a file are edited in two locations. This is most common in collaborations, but could happen if you edit a file on GitHub and then edit the same file on your local computer without pulling the updated repository first. Git does a good job of merging files generally, but (rightly) throws a warning if there are commits that both edited the same line. These are clearly marked and should be manually reconciled.
+Merge conflicts occur when the same line(s) of a file are edited in two locations. This is most common in collaborations, but could happen if, e.g., you edit a file on GitHub and then edit the same file on your local computer without pulling the updated repository first. Git does a good job of merging files generally, but (rightly) throws a warning if there are simultaneous commits that both changed the same line. These are clearly marked and should be manually reconciled.
 
 
 ## Accessory files
