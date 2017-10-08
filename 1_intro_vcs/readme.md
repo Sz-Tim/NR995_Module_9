@@ -34,15 +34,3 @@ Here's the workflow when you're using git
 - Pull changes -- update any commits from elsewhere to the local repo
 
 
-## Terms
-**version control system (VCS):**  
-**Local VCS:**  
-**Centralized VCS:**  
-**Distributed VCS:**  
-**Repository:** A folder (a.k.a., directory) containing all files associated with a project being tracked by a VCS; often shortened to 'repo'  
-**Git:** A particular distributed VCS software program; WordProcessor:MicrosoftWord as VCS:Git  
-**Stage:** (v.)  
-**Commit:** (v.)  
-**Push:** (v.)  
-**Pull:** (v.)  
-
