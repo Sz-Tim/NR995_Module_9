@@ -27,9 +27,9 @@ After restarting RStudio, you should see a tab next to *Environment* and *Histor
 - Click the gear icon that says *More*
 - Click *Shell..*
 
-This opens a window with a bash shell. There are two things to do from the command line - only two - and you only need to do it once. In the shell, run the following two lines of code, using your real name (or GitHub username) and the email address you used when creating your GitHub account:
-`git config --global user.name "Neville Longbottom"`
-`git config --global user.email "tentacula@hogwarts.edu"`
+This opens a window with a bash shell. There are two things to do from the command line - only two - and you only need to do it once. In the shell, run the following two lines of code, using your real name (or GitHub username) and the email address you used when creating your GitHub account:  
+`git config --global user.name "Neville Longbottom"`  
+`git config --global user.email "tentacula@hogwarts.edu"`  
 Git on your computer now knows your name and email address for connecting with GitHub. When you make a commit, it will be labelled with the name you entered here.
 
 
