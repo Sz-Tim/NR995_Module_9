@@ -35,3 +35,5 @@ vignettes/*.pdf
 
 # Other
 NR 995 Fall 2017 syllabus.pdf
+*.key
+*_Key.R
