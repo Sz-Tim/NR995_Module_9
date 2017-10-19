@@ -11,21 +11,19 @@ Version control systems were developed by software developers to track their sof
 
 
 ## Version control systems overview
-This is what a VCS does and a very brief history.
 These are the basic structures of VCSs: 
 - Local
 - Centralized
   - Google docs are an example of a centralized VCS. You get a lot of benefits like revision history, simultaneous editing, etc. You can work from a snapshot on your local system and then re-upload, but you need to have access to the internet to access the revision history and you run the risk of working from an out-dated version (i.e., someone else editing the document *after* you downloaded it) and overwriting their work.
 - Distributed
-  - These are the advantages of a distributed VCS
-Reiterate: VCS is software. It is a computer program that tracks the changes you make within a specified directory. 
+  - Full version database on *each* computer
 
 
 ## Git
 Git is a distributed VCS
 You can use git completely on your local computer to track your project files, but there are several great cloud-based services for connecting your local repository to a remote repository. They're free, it gives you a full backup, and they have a bunch of extra features, so there's no reason not to.
-Git works by taking full snapshots of files that have changed -- commit hashes
-Here's the workflow when you're using git
+Git works by taking full snapshots of files that have changed. 
+This is a typical workflow when you're using git:  
 - Work like usual
 - Save like usual
 - Stage changes -- tell git to prepare to store this version
