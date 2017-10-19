@@ -21,8 +21,7 @@ These are the basic structures of VCSs:
 
 ## Git
 Git is a distributed VCS
-You can use git completely on your local computer to track your project files, but there are several great cloud-based services for connecting your local repository to a remote repository. They're free, it gives you a full backup, and they have a bunch of extra features, so there's no reason not to.
-Git works by taking full snapshots of files that have changed. 
+Git works by taking full snapshots of files that have changed. You can use git completely on your local computer to track your project files, but there are several great cloud-based services for connecting your local repository to a remote repository. They're free, it gives you a full backup, and they have a bunch of extra features, so there's no reason not to.  
 This is a typical workflow when you're using git:  
 - Work like usual
 - Save like usual
